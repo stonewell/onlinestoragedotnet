@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStorage.Net", "OnlinStorage.Net\OnlineStorage.Net.csproj", "{37EB4EA0-7068-4057-A0D3-20E3B435A0EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GData.Storage.Net", "GData.Storage.Net\GData.Storage.Net.csproj", "{086E0D64-34B5-499B-9E13-B21E3FE81438}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{72BC4C76-C2E8-49C0-A9D8-B245C470F8B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{21791561-A423-4A50-AB9F-5EB301CB9CE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOnlineStorage", "..\tests\TestOnlineStorage\TestOnlineStorage.csproj", "{75609B8E-595F-4735-B8CB-DBAF2DA7DEB6}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ASP|Any CPU = ASP|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37EB4EA0-7068-4057-A0D3-20E3B435A0EA}.ASP|Any CPU.ActiveCfg = Release|Any CPU
+		{37EB4EA0-7068-4057-A0D3-20E3B435A0EA}.ASP|Any CPU.Build.0 = Release|Any CPU
+		{37EB4EA0-7068-4057-A0D3-20E3B435A0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EB4EA0-7068-4057-A0D3-20E3B435A0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EB4EA0-7068-4057-A0D3-20E3B435A0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EB4EA0-7068-4057-A0D3-20E3B435A0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086E0D64-34B5-499B-9E13-B21E3FE81438}.ASP|Any CPU.ActiveCfg = Release|Any CPU
+		{086E0D64-34B5-499B-9E13-B21E3FE81438}.ASP|Any CPU.Build.0 = Release|Any CPU
+		{086E0D64-34B5-499B-9E13-B21E3FE81438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086E0D64-34B5-499B-9E13-B21E3FE81438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086E0D64-34B5-499B-9E13-B21E3FE81438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086E0D64-34B5-499B-9E13-B21E3FE81438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75609B8E-595F-4735-B8CB-DBAF2DA7DEB6}.ASP|Any CPU.ActiveCfg = Release|Any CPU
+		{75609B8E-595F-4735-B8CB-DBAF2DA7DEB6}.ASP|Any CPU.Build.0 = Release|Any CPU
+		{75609B8E-595F-4735-B8CB-DBAF2DA7DEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75609B8E-595F-4735-B8CB-DBAF2DA7DEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75609B8E-595F-4735-B8CB-DBAF2DA7DEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75609B8E-595F-4735-B8CB-DBAF2DA7DEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{086E0D64-34B5-499B-9E13-B21E3FE81438} = {72BC4C76-C2E8-49C0-A9D8-B245C470F8B1}
+		{37EB4EA0-7068-4057-A0D3-20E3B435A0EA} = {72BC4C76-C2E8-49C0-A9D8-B245C470F8B1}
+		{75609B8E-595F-4735-B8CB-DBAF2DA7DEB6} = {21791561-A423-4A50-AB9F-5EB301CB9CE4}
+	EndGlobalSection
+EndGlobal
